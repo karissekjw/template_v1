@@ -80,7 +80,7 @@ This folder should contain your production build. Read the Deployment section to
 
 Follow these steps to host your project on Firebase! :fire:
 
-If you are using other hosting platforms to host your website. Follow step 1 before deploying them.
+*If you are using other hosting platforms to host your website, skip step 2.*
 
 **1. Create production build**
 
@@ -99,6 +99,10 @@ Once you've initialised your Firebase project, run the following command. All fi
 ```
 firebase deploy
 ```
+
+**3. Deploy on live system**
+
+Copy the production folder into your hosting platform using Cyberduck or any FTP tools that you are currently using.
 
 ## Authors
 
