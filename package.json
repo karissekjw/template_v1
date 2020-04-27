@@ -1,0 +1,38 @@
+{
+  "name": "template_v1",
+  "version": "1.0.0",
+  "description": "template v1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "karissekjw"
+  },
+  "keywords": [
+    "karisse"
+  ],
+  "author": "karisse",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.0",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "d3": "^5.9.2",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.7.0",
+    "waypoints": "^4.0.1",
+    "webpack-cli": "^3.3.4"
+  }
+}
